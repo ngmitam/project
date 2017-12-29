@@ -11,4 +11,16 @@ export class AboutPage {
 
   }
 
+  items = [
+    "Edit my cars",
+    "History",
+    "News",
+    "Invite friends",
+    "Give us feedback",
+  ];
+
+  itemSelected(item: string) {
+    console.log("Selected Item", item);
+ }
+
 }

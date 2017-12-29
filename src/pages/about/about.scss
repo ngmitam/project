@@ -1,3 +1,27 @@
 page-about {
+    .sign-out {
+        color: color($colors, "danger") !important;
+    }
 
+    ion-content {
+
+        ion-grid {
+            margin: 0 !important;
+            ion-row {
+                margin: 0 !important;
+                ion-col {
+                    h1,
+                    p {
+                        margin: 0 !important;
+                    }
+                }
+            }
+        }
+
+        ion-list {
+            margin: 0 !important;
+        }
+
+    }
+    
 }

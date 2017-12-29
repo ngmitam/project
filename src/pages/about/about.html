@@ -1,11 +1,37 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      About
-    </ion-title>
+    <ion-title></ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+
+  <ion-grid>
+    <ion-row>
+      
+      <ion-col col-9>
+        <div>
+          <h1>John</h1>  
+          <p>Edit profile</p>
+        </div>
+      </ion-col>
+
+      <ion-col col-3 text-right>
+        <img src="../../assets/imgs/imgpsh_fullsize.png" alt="Avatar">
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
+  <ion-list inset>
+      <ion-item>
+      </ion-item>
+      <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
+        {{ item }}
+      </button> 
+      <ion-item class="sign-out">
+          Sign out
+      </ion-item> 
+  </ion-list>
 
 </ion-content>
