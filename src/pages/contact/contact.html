@@ -1,17 +1,72 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Contact
+      Edit my cars
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+  <ion-row>
+    <ion-col col-1>
+    </ion-col>
+    <ion-col col-10>
+      <!-- Add more cars button -->
+      <button ion-button block outline id="add-more-cars"> Add more cars </button>
+    </ion-col>
+    <ion-col col-1>
+    </ion-col>
+  </ion-row>
+
+  <!-- Car information list -->
+  <!-- Car information item -->
+  <ion-item>
+    <ion-row>
+
+      <!-- Car img -->
+      <ion-col col-6>
+        <img src="../../assets/imgs/Glacier Silver Metallic-A83-173,176,177-640-en_CA.jpg" alt="Car">
+      </ion-col>
+
+      <!-- Car information -->
+      <ion-col col-6 padding-vertical>
+        <div>
+          <!-- Brand name -->
+          <h1>
+            BMW
+          </h1>
+          <!-- Id number -->
+          <h3>
+            51A-56832
+          </h3>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-item>
+  
+  <!-- Car information item -->
+  <ion-item>
+    <ion-row>
+
+      <!-- Car img -->
+      <ion-col col-6>
+        <img src="../../assets/imgs/PNGPIX-COM-Yellow-Audi-TTS-Roadster-Car-PNG-image-500x258.png" alt="Car">
+      </ion-col>
+  
+      <!-- Car information -->
+      <ion-col col-6 padding-vertical>
+        <div>
+          <!-- Brand name -->
+          <h1>
+            Audi
+          </h1>
+          <!-- Id number -->
+          <h3>
+            51A-65756
+          </h3>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-item>
+
 </ion-content>

@@ -1,3 +1,18 @@
 page-contact {
-
+    .toolbar-title-ios {
+        font-size: 150% !important;
+        font-style: normal !important;
+    }
+    ion-header {
+        ion-navbar {
+            ion-title {
+                .toolbar-title {
+                    font-size: 150% !important;
+                }
+            }
+        }
+    }
+    #add-more-cars {
+        border-radius: 2em !important;
+    }
 }
